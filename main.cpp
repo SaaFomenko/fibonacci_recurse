@@ -4,9 +4,9 @@
 
 int main()
 {
-	std::string msg = "Введите номер для числа Фибоначчи: ";
-	std::string fail_msg = "Неверный ввод, повторите ввод целого числа!";
-	std::string res_msg = "Число Фибоначчи с номером ";
+	const std::string msg = "Введите номер для числа Фибоначчи: ";
+	const std::string fail_msg = "Неверный ввод, повторите ввод целого числа!";
+	const std::string res_msg = "Число Фибоначчи с номером ";
 	std::string in_user = "";
 
 	int number  = 0;

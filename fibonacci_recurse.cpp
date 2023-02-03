@@ -2,7 +2,7 @@
 
 long long fibonacci_recurse(int number)
 {
-	if(number <= 0)
+  if(number <= 0)
   {
     return 0;
   }
